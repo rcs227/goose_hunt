@@ -1,6 +1,6 @@
 extends Node2D
 
-var godot_path = "res://dist/test.exe"
+var godot_path = "res://test/test.exe"
 var global_path = ProjectSettings.globalize_path(godot_path)
 var arguments = ["--no-file"]
 var output = []
